@@ -1,4 +1,4 @@
-module github.com/LuxGram/Todos
+module github.com/ElGraam/Todos
 
 go 1.22.2
 
