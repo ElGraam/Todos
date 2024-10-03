@@ -21,29 +21,6 @@ vendor/
 /bin/
 
 
-#craete-react-app
-# dependencies
-todo-frontend/node_modules
-todo-frontend/.pnp
-todo-frontend/.pnp.js
-
-# testing
-todo-frontend/coverage
-
-# production
-todo-frontend/build
-
-# misc
-todo-frontend/.DS_Store
-todo-frontend/.env.local
-todo-frontend/.env.development.local
-todo-frontend/.env.test.local
-todo-frontend/.env.production.local
-
-todo-frontend/npm-debug.log*
-todo-frontend/yarn-debug.log*
-todo-frontend/yarn-error.log*
-
 # vite
 # Logs
 todo-vite-ts-react/logs
@@ -70,6 +47,7 @@ todo-vite-ts-react/*.njsproj
 todo-vite-ts-react/*.sln
 todo-vite-ts-react/*.sw?
 
-main.gom
 tmp/build-errors.log
 tmp/main
+
+!main.go

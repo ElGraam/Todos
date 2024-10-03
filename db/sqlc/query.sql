@@ -10,3 +10,6 @@ UPDATE todos SET completed = ? WHERE id = ?;
 
 -- name: DeleteTodo :exec
 DELETE FROM todos WHERE id = ?;
+
+-- name: GetTodoByID :one
+SELECT id, body, completed, created_at FROM todos WHERE id = ?;
